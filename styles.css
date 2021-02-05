@@ -1,0 +1,53 @@
+body {
+  background-color: #011f3f;
+}
+
+h1 {
+  margin: 0;
+}
+
+.action-text {
+  text-align: center;
+  font-size: 3rem;
+  color: #fef2bf;
+}
+
+.button-container {
+  display: inline-flex;
+  padding: 30px 10%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+  border: 13px solid;
+  margin: 20px;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pressed {
+  background-color: silver;
+  box-shadow: 0 0 15px white;
+}
+
+.game-over {
+  background-color: red;
+}
